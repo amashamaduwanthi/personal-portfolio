@@ -38,3 +38,14 @@ ScrollReveal().reveal('.home-content,heading', { origin: 'top' });
 ScrollReveal().reveal('.home-image,.services-container,portfolio-box,.contact form,.skill-box', { origin: 'bottom' });
 ScrollReveal().reveal('.home-contact h1,.about-img ', { origin: 'left' });
 ScrollReveal().reveal('.home-contact p,.about-content', { origin: 'right' });
+
+
+//typed js
+const typed=new Typed('.multiple-text',{
+strings:['Fullstack Developer','Web Designer'],
+    typeSpeed:70,
+    backSpeed:70,
+    backDelay:1000,
+    loop:true
+
+})
